@@ -56,12 +56,12 @@ You interact with the agent by passing a prompt to the `main.py` script.
 **Basic Example:**
 Ask the agent to analyze the code.
 ```bash
-uv run main.py "Explain how the calculator renders the result to the console."
+uv run main.py "YOUR PROMPT GOES HERE"
 ```
 **Verbose Output:**
 Use the verbose flag to see the agent's internal thought process and tool usage loops:
 ```bash
-uv run main.py "Explain how the calculator renders the result to the console." --verbose
+uv run main.py "YOUR PROMPT GOES HERE" --verbose
 ```
 
 ## 🧪 Testing
@@ -75,5 +75,6 @@ uv run python -m unittest discover -s tests/
 This project was built for educational purposes and relies on the following resources:
 * **Calculator Application**: The target application located in the `calculator/` directory (used as the sandbox environment) was provided by the [boot.dev](https://boot.dev) course materials.
 * **AI Logic**: The agent's reasoning and code generation capabilities are powered by the [Google Gemini API](https://ai.google.dev/).
+
 
 
