@@ -2,6 +2,16 @@
 
 This project is a learning exercise in building an AI agent using the Google Gemini API. The agent is designed to autonomously analyze, read, and modify code within a specific sandboxed environment using function calling.
 
+## ⚠️ Security Warning & Disclaimer
+
+**This project is for educational and learning purposes only.**
+
+This program is **not** a production-ready AI agent and lacks the standard security, sandboxing, and safety features required for safe deployment. 
+
+* **Do not distribute** this tool to others for general use.
+* **Risk of Data Loss:** The agent is designed to operate within a specific, hardcoded working directory. While currently restricted to a sandbox, modifying the codebase to change this target directory can allow the agent to read, modify, or delete files anywhere on your system. 
+* **User Responsibility:** You are responsible for ensuring the code is run in a safe environment. Always review the code before execution.
+
 ## 🚀 Overview
 
 The goal of this project is to demonstrate how an AI model can leverage defined tools (functions) to interact with a local file system.
@@ -65,4 +75,5 @@ uv run python -m unittest discover -s tests/
 This project was built for educational purposes and relies on the following resources:
 * **Calculator Application**: The target application located in the `calculator/` directory (used as the sandbox environment) was provided by the [boot.dev](https://boot.dev) course materials.
 * **AI Logic**: The agent's reasoning and code generation capabilities are powered by the [Google Gemini API](https://ai.google.dev/).
+
 
