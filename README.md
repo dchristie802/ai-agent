@@ -23,7 +23,7 @@ To run this project, you will need:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/dchristie802/ai-agent.git](https://github.com/dchristie802/ai-agent.git)
+    git clone https://github.com/dchristie802/ai-agent.git
     cd ai-agent
     ```
 
@@ -65,3 +65,4 @@ uv run python -m unittest discover -s tests/
 This project was built for educational purposes and relies on the following resources:
 * **Calculator Application**: The target application located in the `calculator/` directory (used as the sandbox environment) was provided by the [boot.dev](https://boot.dev) course materials.
 * **AI Logic**: The agent's reasoning and code generation capabilities are powered by the [Google Gemini API](https://ai.google.dev/).
+
